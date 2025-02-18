@@ -2,14 +2,14 @@
 import PackageDescription
 
 let package = Package(
-    name: "CloudpaymentsSDK",
+    name: "Cloudpayments",
     platforms: [
         .iOS(.v13)
     ],
     products: [
         .library(
             name: "Cloudpayments",
-            targets: ["CloudpaymentsSDK"]
+            targets: ["Cloudpayments"]
         ),
         .library(
             name: "CloudpaymentsNetworking",
@@ -18,7 +18,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "CloudpaymentsSDK",
+            name: "Cloudpayments",
             dependencies: [
                 "CloudpaymentsNetworking"
             ],
