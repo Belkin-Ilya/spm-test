@@ -547,7 +547,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HQI-Lk-0gA">
                                                 <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HWd-EI-zm7" customClass="Button" customModule="sdk" customModuleProvider="target">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HWd-EI-zm7" customClass="Button" customModule="Cloudpayments">
                                                         <rect key="frame" x="345" y="0.0" width="48" height="44"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="48" id="e3k-Nw-MEf"/>
