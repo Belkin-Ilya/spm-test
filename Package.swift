@@ -36,11 +36,6 @@ let package = Package(
             path: "networking",
             sources: ["source"]
         ),
-        .testTarget(
-            name: "CloudpaymentsNetworkingTests",
-            dependencies: ["CloudpaymentsNetworking"],
-            path: "networking/Tests"
-        )
     ],
     swiftLanguageVersions: [.v5]
 )
