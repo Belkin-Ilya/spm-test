@@ -688,7 +688,7 @@
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dn4-zG-GBf" userLabel="Main card view">
                                                                 <rect key="frame" x="0.0" y="0.0" width="361" height="56"/>
                                                                 <subviews>
-                                                                    <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ds8-4r-6Pa" customClass="Button" customModule="sdk" customModuleProvider="target">
+                                                                    <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ds8-4r-6Pa" customClass="Button" customModule="Cloudpayments">
                                                                         <rect key="frame" x="0.0" y="0.0" width="361" height="56"/>
                                                                         <color key="backgroundColor" name="color_blue"/>
                                                                         <constraints>
@@ -725,7 +725,7 @@
                                                             <view hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vfX-2B-FR1" userLabel="Main tpay view">
                                                                 <rect key="frame" x="0.0" y="0.0" width="361" height="56"/>
                                                                 <subviews>
-                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ogz-S0-gAM" customClass="Button" customModule="sdk" customModuleProvider="target">
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ogz-S0-gAM" customClass="Button" customModule="Cloudpayments">
                                                                         <rect key="frame" x="0.0" y="0.0" width="361" height="56"/>
                                                                         <color key="backgroundColor" name="color_tpay_button"/>
                                                                         <constraints>
@@ -781,7 +781,7 @@
                                                             <view hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lcn-U0-o7V" userLabel="SberPay View">
                                                                 <rect key="frame" x="0.0" y="0.0" width="361" height="56"/>
                                                                 <subviews>
-                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mcD-ws-ZeM" userLabel="SberPay Button" customClass="Button" customModule="sdk" customModuleProvider="target">
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mcD-ws-ZeM" userLabel="SberPay Button" customClass="Button" customModule="Cloudpayments">
                                                                         <rect key="frame" x="0.0" y="0.0" width="361" height="56"/>
                                                                         <color key="backgroundColor" name="color_sber_pay_button"/>
                                                                         <constraints>
@@ -808,7 +808,7 @@
                                                             <view hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NVM-nf-zTd" userLabel="Sbp">
                                                                 <rect key="frame" x="0.0" y="0.0" width="361" height="56"/>
                                                                 <subviews>
-                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tsl-aQ-bDt" customClass="Button" customModule="sdk" customModuleProvider="target">
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tsl-aQ-bDt" customClass="Button" customModule="Cloudpayments">
                                                                         <rect key="frame" x="0.0" y="0.0" width="361" height="56"/>
                                                                         <color key="backgroundColor" name="color_background_sbp"/>
                                                                         <constraints>
