@@ -9,7 +9,7 @@ let package = Package(
     products: [
         .library(
             name: "Cloudpayments",
-            targets: ["Cloudpayments"]
+            targets: ["sdk"]
         ),
         .library(
             name: "CloudpaymentsNetworking",
@@ -18,7 +18,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "Cloudpayments",
+            name: "sdk",
             dependencies: [
                 "CloudpaymentsNetworking"
             ],
