@@ -13,7 +13,7 @@
         <!--Payment Card Form-->
         <scene sceneID="Ekd-cN-VVV">
             <objects>
-                <viewController storyboardIdentifier="PaymentForm" modalPresentationStyle="overCurrentContext" id="yYc-tm-1ad" customClass="PaymentCardForm" customModule="Cloudpayments" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PaymentForm" modalPresentationStyle="overCurrentContext" id="yYc-tm-1ad" customClass="PaymentCardForm" customModule="sdk" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bBd-gv-a5O">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -375,7 +375,7 @@
         <!--Payment Process Form-->
         <scene sceneID="Z90-g9-bOz">
             <objects>
-                <viewController storyboardIdentifier="PaymentProcessForm" id="xmx-Pt-dkp" customClass="PaymentProcessForm" customModule="Cloudpayments" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PaymentProcessForm" id="xmx-Pt-dkp" customClass="PaymentProcessForm" customModule="sdk" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Gpt-uD-nOq">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -629,7 +629,7 @@
         <!--Payment Options Form-->
         <scene sceneID="b2v-mo-euJ">
             <objects>
-                <viewController storyboardIdentifier="PaymentOptionsForm" definesPresentationContext="YES" providesPresentationContextTransitionStyle="YES" modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="1Yz-Du-ae4" customClass="PaymentOptionsForm" customModule="Cloudpayments" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PaymentOptionsForm" definesPresentationContext="YES" providesPresentationContextTransitionStyle="YES" modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="1Yz-Du-ae4" customClass="PaymentOptionsForm" customModule="sdk" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="W9V-aT-4CT">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
