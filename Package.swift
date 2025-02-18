@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "CloudpaymentsSDK",
+    name: "Cloudpayments",
     platforms: [
         .iOS(.v13)
     ],
