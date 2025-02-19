@@ -1,0 +1,32 @@
+{
+  "name": "Cloudpayments",
+  "version": "1.5.15",
+  "summary": "Core library that allows you to use internet acquiring from CloudPayments in your app",
+  "description": "Core library that allows you to use internet acquiring from CloudPayments in your app!",
+  "homepage": "https://cp.ru/",
+  "license": "{ :type => 'Apache 2.0' }",
+  "authors": {
+    "Anton Ignatov": "a.ignatov@cp.ru"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source": {
+    "git": "https://github.com/cloudpayments/CloudPayments-SDK-iOS.git",
+    "tag": "1.5.15"
+  },
+  "source_files": "Sources/**/*.swift",
+  "resource_bundles": {
+    "CloudpaymentsSDK": [
+      "Resources/**/*.{txt,json,png,jpeg,jpg,storyboard,xib,xcassets}"
+    ]
+  },
+  "requires_arc": true,
+  "dependencies": {
+    "CloudpaymentsNetworking": [
+
+    ]
+  },
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
+}

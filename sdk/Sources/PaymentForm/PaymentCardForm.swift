@@ -43,7 +43,7 @@ public final class PaymentCardForm: PaymentForm {
     
     @discardableResult
     public class func present(with configuration: PaymentConfiguration, from: UIViewController, completion: (() -> ())?) -> PaymentForm? {
-        let storyboard = UIStoryboard.init(name: "PaymentForm", bundle: .mainSdk)
+        let storyboard = UIStoryboard.init(name: "PaymentForm", bundle: Bundle.mainSdk)
         
         guard let controller = storyboard.instantiateViewController(withIdentifier: "PaymentForm") as? PaymentForm else {
             return nil
